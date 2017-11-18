@@ -1,0 +1,45 @@
+:root {
+	--primary-font: 'VT323', monospace;
+	--secondary-font: 'Cabin', sans-serif;
+	--large-font-size: 130px;
+	--small-font-size: 50px;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(hsla(340, 50%, 60%, 0.5), hsla(140, 50%, 50%, 0.5)), url("../img/science.png");
+	position: fixed;
+	margin: 0;
+}
+
+.dead-center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-family: var(--primary-font);
+	color: hsla(100, 90%, 60%, 0.7);
+	font-size: var(--large-font-size);
+	text-align: center;
+	margin-top: 0;
+}
+
+h2 {
+	font-family: var(--secondary-font);
+	color: hsla(160, 80%, 60%, 0.7);
+	font-size: var(--small-font-size);
+	margin-left: 25px;
+}
+
+span {
+	font-family: var(--primary-font);
+	color: hsla(100, 90%, 60%, 0.7);
+	font-size: var(--small-font-size);
+}
+
